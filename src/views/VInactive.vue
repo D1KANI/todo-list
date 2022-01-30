@@ -1,5 +1,5 @@
 <template>
-  <section class="unactive">
+  <section class="inactive">
     <div class="container">
       <h1>Inactive Tasks</h1>
       <app-list type="inactive"></app-list>

@@ -75,13 +75,8 @@ export default {
   position: relative;
   margin-bottom: 20px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #fffffc 0%, #f2f2e4 100%);
-  box-shadow: -4px 4px 8px rgba(214, 214, 206, 0.2),
-    4px -4px 8px rgba(214, 214, 206, 0.2),
-    -4px -4px 8px rgba(255, 255, 255, 0.9),
-    4px 4px 10px rgba(214, 214, 206, 0.9),
-    inset 1px 1px 2px rgba(255, 255, 255, 0.3),
-    inset -1px -1px 2px rgba(214, 214, 206, 0.5);
+  background: #FFFFF6;
+  box-shadow: -4px 4px 8px rgba(224, 224, 216, 0.2), 4px -4px 8px rgba(224, 224, 216, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.9), 4px 4px 10px rgba(224, 224, 216, 0.9);
   padding: 24px;
   &__name {
     font-size: 24px;
@@ -95,6 +90,7 @@ export default {
   }
   &__link {
     font-size: 14px;
+    width: max-content;
   }
   &__delete {
     position: absolute;

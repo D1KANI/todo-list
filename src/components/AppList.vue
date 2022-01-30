@@ -40,8 +40,6 @@ export default {
     transition: transform 300ms, opacity 300ms;
   }
   .slideUp-enter, .slideUp-leave-to {
-    position: absolute;
     opacity: 0;
-    transform: translateY(-100px);
   }
 </style>
