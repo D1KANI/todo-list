@@ -23,13 +23,15 @@ export default ({
   padding: 30px 0;
   &__link {
     display: block;
-    width: max-content;
+    width: 100px;
     margin: 0 auto 15px;
   }
 }
 .logo {
   display: block;
   margin: 0 auto;
+  width: 100%;
+  object-fit: contain;
 }
 .nav {
   &__list {
